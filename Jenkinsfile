@@ -13,7 +13,7 @@ pipeline {
         }
          stage('Build') {
             steps {
-                echo 'Compiling and building'
+                echo 'Compiling and Building'
                 sh 'go build -o ./build/chat_build ./cmd'
             }
         }
