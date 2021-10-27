@@ -1,2 +1,2 @@
 # chat
-Chat in go
+Chat Example in Go
