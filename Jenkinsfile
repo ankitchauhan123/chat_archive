@@ -3,9 +3,7 @@ pipeline {
     tools {
         go '1.17.2'
     }
-    triggers {
-        pollSCM '* * * * *'
-    }
+    
     stages {
         stage('Clone Repo') {
             steps {
