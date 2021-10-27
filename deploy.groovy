@@ -1,7 +1,7 @@
 job('go-chat'){
     description ("Chat build and deployment job ")
     scm{
-        git("https://github.com/ankitchauhan123/chat.git",main)
+        github('ankitchauhan123/chat.git',main)
     }
     triggers{
         scm('* * * * *')
