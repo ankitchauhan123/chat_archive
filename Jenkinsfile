@@ -5,12 +5,6 @@ pipeline {
     }
     
     stages {
-        stage('Clone Repo') {
-            steps {
-                git branch: 'main',
-                url: 'https://github.com/ankitchauhan123/chat.git'
-            }
-        }
          stage('Build') {
             steps {
                 echo 'Compiling and Building...'
