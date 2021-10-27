@@ -1,5 +1,5 @@
 job('go-chat'){
-    description ("Chat build and deployment job ",${new Date()})
+    description ("Chat build and deployment job ")
     scm{
         git("https://github.com/ankitchauhan123/chat.git",main)
     }
